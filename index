@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Pet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adopt a Pet</h1>
+        <div class="pet-gallery">
+            <!-- Display available pets -->
+            <div class="pet" data-pet-id="1">
+                <img src="images/pet1.png" alt="Pet 1">
+                <button class="adopt-btn">Adopt</button>
+            </div>
+            <div class="pet" data-pet-id="2">
+                <img src="images/pet2.png" alt="Pet 2">
+                <button class="adopt-btn">Adopt</button>
+            </div>
+        </div>
+        <div id="my-pets">
+            <h2>My Adopted Pets</h2>
+            <!-- Adopted pets will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
